@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@amir94rp/ckeditor5-custom-build",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The classic editor build of CKEditor 5 with some customizations",
   "keywords": [
     "ckeditor",
