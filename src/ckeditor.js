@@ -39,7 +39,7 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
-import {Vue3FileManager} from "@amir94rp/ckeditor5-file-manager";
+import {ImageManager} from "@amir94rp/ckeditor5-file-manager";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -59,7 +59,7 @@ ClassicEditor.builtinPlugins = [
 	ImageResize,
 	ImageInsert,
 	AutoImage,
-	Vue3FileManager,
+	ImageManager,
 	Indent,
 	Link,
 	List,
@@ -97,7 +97,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'highlight','fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor',
 			'|',
-			'link','blockQuote', 'insertTable', 'openFileManagerBtn', 'mediaEmbed',
+			'link','blockQuote', 'insertTable', 'imageManager', 'mediaEmbed',
 			'|',
 			'bulletedList', 'numberedList', 'todoList',
 			'|',
